@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+html {
+    font-size: 16px;
+}
+
+h2{
+    font-size: 200%;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 300;
+}
+h4{
+    font-size: 28px ;
+    font-weight: 300;
+    margin-top: 20px;
+}
+a{
+    color: #000;
+    display: block;
+    padding: 45px 0; 
+}
+
+p {
+    font-size: 1rem;
+}
+
+.navbar-brand{
+    width: 120px; 
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#navbar-icon{
+    font-size: 40px;
+    float: right;
+    margin-top: 0%;
+    margin-right: 5%;
+    display: none;
+    cursor: pointer;
+}
+
+.symbol {
+    height: 20rem;
+}
+
+.sn:hover{
+    text-decoration: none;
+}
+.sidenavbar{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 0;
+    background-color: rgb(255, 255, 254);
+    z-index: 1;
+    padding-top: 100px;
+    text-decoration: none;
+    overflow-x: hidden;
+    transition: all .5s;
+}
+.sidenavbar a{
+    padding: 8px 8px 8px 64px;
+    font-size: 28px;
+    color: black;
+    display: block;
+}
+.sidenavbar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    font-size: 2rem;
+    margin-right: 14rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 170px;
+    max-width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: auto;
+    right: 0;
+    background-color: transparent;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-decoration: none;
+  }
+
+  .sidenav a {
+    padding: 60px 30px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    font-weight: 600;
+    float: right;
+  }
+  .btn{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000000;
+    border-radius: 1.25rem;
+    /* padding: 0.625rem 3.125rem; */
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    display:block;
+    position: relative;
+    /* display: table; */
+} 
+.btn-works{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+}
+.btn-career{
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 1.25rem;
+    color: #000;
+}
+.submit-b{
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000000;
+    border-radius: 1.25rem;
+    padding: 2% 10%;
+}
+.title{
+    margin-top: 20%;
+    text-align: center;
+}
+.active, .btn-career:hover{
+    background-color:black;
+    color:white;
+    border: 2px solid #000;
+    border-radius: 1.25rem;
+}
+
+@media only screen and (max-width:812px){ /* phone screen */
+   /* inside the symbol division, 
+   the max-width is 96,
+    because its navbar margin left and right are 2% */
+    #navbar-icon{
+        display: block;
+    }
+
+    .symbol-place{
+        text-align: center;
+        display: block;
+    }
+    .circle , .triangle , .square{
+        width: 10%;
+        margin-left: 48%;
+        margin-top: 10%;
+        margin-bottom: 20%;
+        display: block;
+    }
+    .sidenav{
+        display: none;
+    }
+    h2{
+        font-size: 250%;
+        text-align: center;
+    }
+    #home{
+        margin-top: 10%;
+        text-align: center;
+    }
+    #home h2{
+        margin-bottom: 20%;
+    }
+    p {
+        text-align: justify;
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .row {
+        margin-left: 24%;
+        margin-right: 24%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    .row img {
+        width:100%;
+        height: 100%;
+    }
+    .subt-now{
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .mtd {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .mtd img {
+        width:100%;
+        height: 100%;
+        margin-bottom: 15%;
+    }
+    .centering{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #now h4 {
+        font-size: 130%;
+    }
+    .work-option{
+        margin-left: 8%;
+        margin-right: 8%;
+        width: 100%;
+    }
+
+.btn-works1{
+    text-align: center;
+    padding: 2% 0%;
+    position: absolute; 
+    font-size: 70%;
+    width: 40%;
+}
+.btn-works2{
+    text-align: center;
+    padding: 2% 0%;
+    position: absolute; 
+    width: 40%;
+    font-size: 70%;
+    left: 51%;
+}
+.btn-works3{
+    padding: 2% 0%;
+    text-align: center;
+    width: 40%;
+    position: absolute; 
+    font-size: 70%;
+    margin-top: 10%;
+}
+.btn-works4{
+    text-align: center;
+    padding: 2% 0%;
+    position: absolute; 
+    font-size: 70%;
+    left: 51%;
+    width: 40%;
+    margin-top: 10%;
+}
+form{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.form-control{
+    border: 0px;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0px;
+    background: transparent;
+    color: #000;
+}
+.form-control:focus{
+    background: transparent;
+    box-shadow: none;
+}
+.select-container select{
+    border: 0px;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0px;
+    background: transparent;
+    color: #000;
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+    .select-container:after{
+    content: 'keyboard_arrow_down';
+    font-family: 'material icons';
+    position: absolute;
+    right: 30px;
+    margin-top: 10%;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 24px;
+    pointer-events: none;
+}
+    .submit-btn1{
+    text-align: center;
+}
+    .bg-dark{
+    background-color: #000000 !important;
+    text-align: center;
+    max-width: 100%;
+}
+    .buy-now{
+        width: 100%;
+    }
+    .pic{
+        display: none;
+    }
+    #points2{
+        display: none;
+    }
+    .work-option1 {
+        display: none;
+    }
+    #portfolio h2{
+        margin-top: 30%;
+    }
+    .porto img{
+        width: 60%;
+    }
+    #contact h4{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .work-option{
+        margin-bottom: 20%;
+    }
+    #career form{
+        margin-bottom: 10%;
+    }
+}
+@media only screen and (min-width:812px){ /* laptop screen */
+    .symbol-place{
+        text-align: center;
+        display: block;
+        width: 2rem;
+        margin-left: 70%;
+    }
+    .circle , .triangle , .square{
+        width: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+  
+    #home{
+        margin-left: 5%;
+        width: 60%;
+        margin-top: -20rem;
+    }
+    #now h2 {
+        font-size: 250%;
+        text-align: center;
+    }
+    #points h4{
+        font-size: 150%;
+    }
+    .row-buy{
+        display: none;
+    }
+    .title{
+        margin-top: 10%;
+    }
+    .pic{
+        margin-top: 10%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .pic img{
+        width: 30%;
+    }
+    #points {
+        margin-top: 40%;
+    }
+    .buy-btn1{
+        margin-left: 10%;
+        margin-right: 60%;
+        text-align: center;
+    }
+    .buy-btn2{
+        margin-left: 60%;
+        margin-right: 10%;
+        margin-top: -8%;
+        text-align: center;
+    }
+    .pic img{
+        width:50%;
+    }
+    .column{
+        float: left;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+    .column4{
+        float: left;
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+    }
+    .points1{
+        display: none;
+    }
+    .column2{
+        float: left;
+        width: 33%;
+        padding: 5px;
+        text-align: center;
+    }
+    #method{
+        margin-top: 40%;
+    }
+    .mtd{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .work-option{
+        display: none;
+    }
+    .work-option1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #portfolio h2{
+        margin-top: 20%;
+    }
+    .porto {
+        margin-left: 20%;
+    }
+    .porto img{
+        width: 50%;
+    }
+    #contact h2{
+        margin-top: 10%;
+        text-align: center;
+    }
+    #contact p {
+        margin-left: 10%;
+    }
+    #contact h4 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #contact form {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .submit-btn1{
+        text-align: center;
+    }
+    .submit-b{
+        padding: 10px 40px 10px 40px;
+    }
+    .work-option1{
+        margin-bottom: 10%;
+    }
+    #career form{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+    }
+    .form-control{
+        border: 0px;
+        border-bottom: 1px solid #000 !important;
+        border-radius: 0px;
+        background: transparent;
+        color: #000;
+    }
+    .form-control:focus{
+        background: transparent;
+        box-shadow: none;
+    }
+    .bg-dark{
+        background-color: #000000 !important;
+        text-align: center;
+        max-width: 100%;
+    }
+    .select-container select{
+        border: 0px;
+        border-bottom: 1px solid #000 !important;
+        border-radius: 0px;
+        background: transparent;
+        color: #000;
+        width: 100%;
+        margin: 30px 0;
+        padding: 10px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    .select-container:after{
+        content: 'keyboard_arrow_down';
+        font-family: 'material icons';
+        position: absolute;
+        right: 130px;
+        margin-top: 5%;
+        transform: translateY(-50%);
+        color: #000;
+        font-size: 24px;
+        pointer-events: none;
+    }
+    .column4{
+        margin-left: 8%;
+        width: 15%;
+        padding: 10px 20px 10px 20px;
+    }
+    #portfolio img{
+        width: 300px;
+    }
+}
+@media only screen and (min-width:1800px){
+    #contact p {
+        margin-left: 30rem;
+    }
+    #contact h4 {
+        margin-left: 30rem;
+        margin-right: 10%;
+    }
+    #contact form {
+        margin-left: 30rem;
+        margin-right: 30rem;
+    }
+
+    .work-option1{
+        margin-bottom: 10%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    #career form{
+        margin-left: 30rem;
+        margin-right: 30rem;
+        margin-bottom: 10%;
+    }
+}
